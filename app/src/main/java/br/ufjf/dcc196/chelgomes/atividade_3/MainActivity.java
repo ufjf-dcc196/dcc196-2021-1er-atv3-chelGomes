@@ -59,9 +59,12 @@ public class MainActivity extends AppCompatActivity {
         Double calculoNumero1 = Double.parseDouble(editTextPrimeiroNumero.getText().toString());
         Double calculoNumero2 = Double.parseDouble(editTextSegundoNumero.getText().toString());
 
-        Double Divisao = calculoNumero1 / calculoNumero2;
+        if(calculoNumero2 != 0) {
+            Double Divisao = calculoNumero1 / calculoNumero2;
 
-        textViewResultado.setText(Divisao.toString());
-
+            textViewResultado.setText(Divisao.toString());
+        }else{
+            textViewResultado.setText("A divisao nao eh valida!!");
+        }
     }
 }
