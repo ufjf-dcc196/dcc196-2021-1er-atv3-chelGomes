@@ -80,11 +80,12 @@
         android:id="@+id/buttonSubtracao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="Multiplicacao"
+        android:layout_marginTop="44dp"
+        android:onClick="calculoSubtracao"
+        android:text="Subtracao"
         app:backgroundTint="@color/teal_700"
         app:layout_constraintEnd_toEndOf="@+id/editTextSegundoNumero"
-        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintStart_toStartOf="@+id/editTextSegundoNumero"
         app:layout_constraintTop_toBottomOf="@+id/textViewResultado" />
 
@@ -92,11 +93,11 @@
         android:id="@+id/buttonMultiplicacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="Divisao"
+        android:layout_marginTop="124dp"
+        android:text="Multiplicacao"
         app:backgroundTint="@color/teal_700"
         app:layout_constraintEnd_toEndOf="@+id/editTextSegundoNumero"
-        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="@+id/editTextSegundoNumero"
         app:layout_constraintTop_toBottomOf="@+id/textViewResultado" />
 
@@ -104,11 +105,11 @@
         android:id="@+id/buttonDivisao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="Subtracao"
+        android:layout_marginTop="124dp"
+        android:text="Divisao"
         app:backgroundTint="@color/teal_700"
         app:layout_constraintEnd_toEndOf="@+id/editTextSegundoNumero"
-        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="@+id/editTextSegundoNumero"
         app:layout_constraintTop_toBottomOf="@+id/textViewResultado" />
 

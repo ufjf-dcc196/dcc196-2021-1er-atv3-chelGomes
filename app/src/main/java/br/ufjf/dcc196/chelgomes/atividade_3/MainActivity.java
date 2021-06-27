@@ -35,6 +35,33 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*Double Subtracao = calculoNumero1 - calculoNumero2;
-    textViewResultado.setText(Subtracao.toString());*/
+    public void calculoSubtracao(View view){
+        Double calculoNumero1 = Double.parseDouble(editTextPrimeiroNumero.getText().toString());
+        Double calculoNumero2 = Double.parseDouble(editTextSegundoNumero.getText().toString());
+
+        Double Subtracao = calculoNumero1 - calculoNumero2;
+
+        textViewResultado.setText(Subtracao.toString());
+
+    }
+
+    public void calculoMultiplicacao(View view){
+        Double calculoNumero1 = Double.parseDouble(editTextPrimeiroNumero.getText().toString());
+        Double calculoNumero2 = Double.parseDouble(editTextSegundoNumero.getText().toString());
+
+        Double Multiplicacao = calculoNumero1 * calculoNumero2;
+
+        textViewResultado.setText(Multiplicacao.toString());
+
+    }
+
+    public void calculoDivisao(View view){
+        Double calculoNumero1 = Double.parseDouble(editTextPrimeiroNumero.getText().toString());
+        Double calculoNumero2 = Double.parseDouble(editTextSegundoNumero.getText().toString());
+
+        Double Divisao = calculoNumero1 / calculoNumero2;
+
+        textViewResultado.setText(Divisao.toString());
+
+    }
 }
